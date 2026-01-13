@@ -1,10 +1,10 @@
 # Custom 1D Convolution with CUDA Shared Memory
 
-高效能 1D 卷積層的 CUDA 實作，使用共享記憶體優化，支援 PyTorch 整合。
+高效能卷積層的 CUDA 實作，使用共享記憶體優化，支援 PyTorch 整合。
 
 ## 特點
 
-- ✅ 使用 CUDA 共享記憶體優化的 1D 卷積
+- ✅ 使用 CUDA 共享記憶體優化卷積
 - ✅ 完整支援 PyTorch `nn.Module` 介面
 - ✅ 支援 stride、padding 和 groups 參數
 - ✅ 包含完整的效能基準測試工具
