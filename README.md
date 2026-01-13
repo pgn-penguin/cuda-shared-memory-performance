@@ -1,4 +1,4 @@
-# Custom 1D Convolution with CUDA Shared Memory
+# Custom Convolution with CUDA Shared Memory
 
 高效能卷積層的 CUDA 實作，使用共享記憶體優化，支援 PyTorch 整合。
 
@@ -62,7 +62,7 @@ python benchmark_txt.py
 PyTorch 原始一維卷積層:
 - 平均時間: 2.456 ms    GFLOPS: 125.43
 
-Custom Conv 1D (固定配置):
+Custom Conv (固定配置):
 - 平均時間: 2.234 ms    GFLOPS: 137.89    速度提升: 9.04%
 ```
 
